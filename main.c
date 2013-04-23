@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
-char *crypt(char *in, unsigned char key);
+void crypt(char *in, unsigned char key) {
+	char *p = in;
+	while(*p) {
+		putchar(*p++ ^ key);
+	}
+	puts("");
+}
 
 int main(int argc, char *argv[]) {
 	if(argc == 3) {
@@ -14,11 +19,5 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 
-char *crypt(char *in, unsigned char key) {
-	char *p = in;
-	while(*p) {
-		putchar(*p++ ^ key);
-	}
-	puts("");
-}
+
 
