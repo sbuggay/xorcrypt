@@ -9,5 +9,5 @@ gcc main.c -o xorcrypt
 
 run
 ```bash
-xorcrypt [in.file] [out.file] [key[byte]]
+./xorcrypt [in.file] [out.file] [key[byte]]
 ```
