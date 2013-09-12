@@ -1,3 +1,6 @@
 xorcrypt 1.0
 
-use: 'xorcrypt [word] [key]'
+no depedencies.
+
+''' gcc main.c -o xorcrypt
+use: 'xorcrypt [in.file] [out.file] [key[byte]]'
