@@ -2,7 +2,12 @@ xorcrypt 1.0
 
 no depedencies.
 
-'''bash
+compile
+```bash
 gcc main.c -o xorcrypt
-'''
-use: 'xorcrypt [in.file] [out.file] [key[byte]]'
+```
+
+run
+```bash
+xorcrypt [in.file] [out.file] [key[byte]]
+```
